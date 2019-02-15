@@ -26,6 +26,7 @@
 		<assertj.version>1.7.0</assertj.version>
 		<mockito.version>1.10.8</mockito.version>
 		<rest-assured.version>2.4.0</rest-assured.version>
+		<jackson.version>2.9.8</jackson.version>
 	</properties>
 
 	<dependencies>
@@ -69,19 +70,19 @@
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-core</artifactId>
-			<version>2.7.4</version>
+			<version>${jackson.version}</version>
 		</dependency>
 
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
-			<version>2.7.4</version>
+			<version>${jackson.version}</version>
 		</dependency>
 
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-annotations</artifactId>
-			<version>2.7.4</version>
+			<version>${jackson.version}</version>
 		</dependency>
 
 		<!-- http://mvnrepository.com/artifact/org.json/json -->
