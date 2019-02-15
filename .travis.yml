@@ -2,4 +2,4 @@ dist: trusty
 language: bash
 
 script:
-  - cd $TRAVIS_BUILD_DIR/tests; bash run_test.sh
+  - cd $TRAVIS_BUILD_DIR/; bash run_tests.sh

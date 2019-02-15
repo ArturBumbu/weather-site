@@ -1,5 +1,5 @@
-#Weather website — Instructions
 [![Build Status](https://travis-ci.org/ArturBumbu/weather-site.svg?branch=master)](https://travis-ci.org/ArturBumbu/weather-site)
+#Weather website — Instructions
 Requirements
 Create a website which will return current weather data from OpenWeatherMap.org, based on a city chosen by the user, which should support:
 
